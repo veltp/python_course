@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-""" Se robot_writer.md för instruktioner
+""" Se robot_writer.md för instruktioner domentet i samma mapp
 """
 
 total_unemployment_2009 = 5.9
