@@ -7,14 +7,19 @@ total_unemployment_2009 = 5.9
 total_unemployment_2014 = 8.0
 
 def write_story(municipality, unemployment_2009, unemployment_2014):
-    text = "Gör mig till en notis"
-    print(text)
-    # Skriv kod här!
+   	"""text = ("Arbetslösheten var i Bengtsfors 2014 %s procentenheter högre  änefter finnanskrisen 2009. Det har gått upp från" )
+    print(text)"""
+	"""Lolos försök"""
+	change_percent=(unemployment_2014 / unemployment_2009*100-100)
+	print ("Arbetslösheten var i " + municipality + "var år 2014 %s procentenheter högre än efter finnanskrisen 2009." %(change_percent))
+	print ("Den har gått upp från %s procent till %s." % (unemployment_2009, unemployment_2014))
 
 
 
-""" Testa roboten!
+""" Teta roboten!
 """
+write_story("Bengtsfors", 9.9,10.3)
+print("***************")
 
 write_story("Stockholm", 7.1, 6.6) 
 print("**************")
